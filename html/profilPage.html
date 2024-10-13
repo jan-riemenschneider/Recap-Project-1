@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profil Page</title>
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script type="module" src="/js/components/DarkMode.js"></script>
+    <link rel="stylesheet" href="/css/pages/profilPage.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Quiz App</h1>
+    </header>
+
+    <main>
+      <section id="profile-info">
+        <img
+          src="/css/pics/4653eebe.jpeg"
+          alt="Jan Riemenschneider"
+          class="profile-pic"
+        />
+        <h2>Jan Riemenschneider</h2>
+      </section>
+
+      <section id="profile-details">
+        <h3>About me</h3>
+        <p>
+          Webentwickler mit Leidenschaft für moderne Web-Technologien und
+          innovative Lösungen.
+        </p>
+        <div id="counters">
+          <div class="counter">
+            <i class="material-icons">help_outline</i>
+            <span>12</span>
+          </div>
+          <div class="counter">
+            <i class="material-icons">bookmark</i>
+            <span>4</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="settings">
+        <h3>Settings</h3>
+        <div class="setting-item">
+          <label for="darkModeSwitch">Dark Mode</label>
+          <label class="switch">
+            <input type="checkbox" id="darkModeSwitch" />
+            <span class="slider"></span>
+          </label>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <nav role="navigation">
+        <a id="home" aria-label="Home" href="/html/homepage.html">
+          <i class="material-icons" style="font-size: 45px">home</i>
+        </a>
+
+        <a id="bookmark" aria-label="Bookmark" href="/html/booksmarkPage.html">
+          <i class="material-icons" style="font-size: 45px">bookmark</i>
+        </a>
+
+        <a id="form" aria-label="Form" href="/html/formPage.html">
+          <i class="material-icons" style="font-size: 45px">add_circle</i>
+        </a>
+
+        <a
+          class="active"
+          id="person"
+          aria-label="Profil"
+          href="/html/profilePage.html"
+        >
+          <i class="material-icons" style="font-size: 45px">person</i>
+        </a>
+      </nav>
+    </footer>
+  </body>
+</html>

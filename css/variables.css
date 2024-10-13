@@ -1,0 +1,9 @@
+/* variables.css */
+:root {
+    --primary-color: red;
+    --secondary-color: white;
+    --border-color: black;
+    --font-size-large: 40px;
+    --font-size-medium: 25px;
+    --font-color: white;
+}

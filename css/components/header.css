@@ -1,0 +1,17 @@
+header {
+    position:fixed;
+    top: 0;              
+    left: 0;              
+    width: 100%;          
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 10px;
+    z-index: 1000;        
+    text-align: center;
+}
+
+
+h1 {
+    font-size: var(--font-size-large);
+    text-align: center;
+}

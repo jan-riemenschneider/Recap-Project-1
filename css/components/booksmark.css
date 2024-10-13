@@ -1,0 +1,17 @@
+/* bookmarks.css */
+section i {
+    position: absolute; /* Absolut innerhalb des Section-Elements */
+    top: 10px;          /* Abstand von oben */
+    right: 10px;        /* Abstand von rechts */
+    color: grey;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.aktiveBookmark {
+    color: red;
+}
+
+#booksmark1:hover, #booksmark2:hover {
+    color: var(--primary-color);
+}

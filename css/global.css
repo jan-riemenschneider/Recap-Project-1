@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 60px;
+}
+
+
+body.dark-mode {
+  background-color: #121212; 
+}
+
+.aktiveBookmark {
+  color: red; /* Beispiel: Farbe ändern, um anzuzeigen, dass der Bookmark gesetzt ist */
+}

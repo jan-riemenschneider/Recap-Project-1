@@ -1,0 +1,57 @@
+@import "../components/header.css";    
+@import "/css/components/footer.css"; 
+@import "../components/button.css";   
+@import "../components/card.css";     
+@import "../components/hashtags.css";  
+@import "../layouts/flexbox.css";      
+@import "../global.css";               
+@import "../variables.css";            
+
+form.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 600px; 
+    padding: 20px;
+    background-color: white;
+    border: 3px solid var(--border-color); 
+    border-radius: 8px;
+    margin-top: 25%;
+}
+
+label {
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+textarea, input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid var(--border-color); 
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 300px;
+}
