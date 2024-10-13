@@ -1,11 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
   const main = document.querySelector('main[data-js="append"]');
 
-  // Lade die Karten aus dem localStorage
   const savedCards = JSON.parse(localStorage.getItem('cards')) || [];
   let savedBookmarks = JSON.parse(localStorage.getItem('bookmarkedCards')) || [];
 
-  // Füge jede Karte zur Homepage hinzu
   savedCards.forEach((card, index) => {
     const newCard = document.createElement('section');
     newCard.classList.add('section');
