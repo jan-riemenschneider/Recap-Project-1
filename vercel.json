@@ -1,0 +1,20 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/html/index.html"
+    },
+    {
+      "source": "/bookmarkPage",
+      "destination": "/html/bookmarkPage.html"
+    },
+    {
+      "source": "/formPage",
+      "destination": "/html/formPage.html"
+    },
+    {
+      "source": "/profilPage",
+      "destination": "/html/profilPage.html"
+    }
+  ]
+}
